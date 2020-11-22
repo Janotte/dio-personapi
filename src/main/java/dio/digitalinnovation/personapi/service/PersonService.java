@@ -12,18 +12,15 @@ import dio.digitalinnovation.personapi.entity.Person;
 import dio.digitalinnovation.personapi.exception.PersonNotFoundException;
 import dio.digitalinnovation.personapi.mapper.PersonMapper;
 import dio.digitalinnovation.personapi.repository.PersonRepository;
+import lombok.AllArgsConstructor;
 
 @Service
+@AllArgsConstructor(onConstructor = @__(@Autowired))
 public class PersonService {
 
 	private final PersonMapper personMapper = PersonMapper.INSTANCE;
 
 	PersonRepository personRepository;
-
-	@Autowired
-	public PersonService(PersonRepository personRepository) {
-		this.personRepository = personRepository;
-	}
 
 	public MessageResponseDTO createPerson(PersonDTO personDTO) {
 		Person personToSave = personMapper.toModel(personDTO);
