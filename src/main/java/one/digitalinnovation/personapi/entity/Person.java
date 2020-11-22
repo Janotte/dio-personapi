@@ -1,4 +1,4 @@
-package dio.digitalinnovation.personapi.entity;
+package one.digitalinnovation.personapi.entity;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -28,14 +28,14 @@ public class Person {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	@Column(nullable = false, unique = true)
-	private String cpf;
-
 	@Column(nullable = false)
 	private String firstName;
 
 	@Column(nullable = false)
 	private String lastName;
+
+	@Column(nullable = false, unique = true)
+	private String cpf;
 
 	private LocalDate birthDate;
 
