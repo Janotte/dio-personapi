@@ -1,18 +1,19 @@
-# Developing a people management system in REST API with Spring Boot
+# Desenvolvendo uma REST API com Spring Boot
 <p align="center">
   <a href="https://github.com/Janotte/dio-personapi#-
-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/Janotte/dio-personapi#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-   <a href="https://github.com/Janotte/dio-personapi#-tools">Tools</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/Janotte/dio-personapi#-download">Download</a>
+sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/Janotte/dio-personapi#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="https://github.com/Janotte/dio-personapi#-ferramentas">Ferramentas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/Janotte/dio-personapi#-baixar">Baixar</a>
 </p>
+
 
 
 ---
 
-## 📝 About
+## 📝 Sobre
 
-Neste projeto de estudos desenvolvemos um pequeno sistema para o gerenciamento de pessoas através de uma **API REST** criada com o **Spring Boot**.
+Neste projeto foi desenvolvida uma  **REST API** com **Spring Boot**, um pequeno sistema de gerenciamento de pessoas para fins de estudos da tecnologia.
 
 O projeto foi desenvolvido e configurado seguindo os tópicos abaixo:
 
@@ -35,7 +36,7 @@ Após executar o comando acima, basta apenas abrir o seguinte endereço e visual
 http://localhost:8080/api/v1/people
 ```
 
-São necessárias as seguintes requisitos para a execução do projeto desenvolvido:
+Requisitos para a execução do projeto desenvolvido:
 
 - Java 11 ou versões superiores.
 - Maven 3.6.3 ou versões superiores.
@@ -43,7 +44,7 @@ São necessárias as seguintes requisitos para a execução do projeto desenvolv
 
 ---
 
-## 💻 Technologies
+## 💻 Tecnologias
 
 Neste projeto foi desenvolvido e utilizadas as seguintes tecnologias:
 
@@ -55,7 +56,7 @@ Neste projeto foi desenvolvido e utilizadas as seguintes tecnologias:
 
 ---
 
-## 🛠 Tools
+## 🛠 Ferramentas
 
 - **Google Chrome**
 - **Spring Suite Tool4**
@@ -66,7 +67,7 @@ Neste projeto foi desenvolvido e utilizadas as seguintes tecnologias:
 
 ---
 
-## 💾 Download
+## 💾 Baixar
 
 ```bash
 
